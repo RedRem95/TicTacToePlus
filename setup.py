@@ -4,7 +4,7 @@ import os
 with open(os.path.join(os.path.dirname(__file__), "TicTacToePlus", "version.txt"), "r") as fv:
     __version__ = fv.read().strip()
 
-with open("README.rst", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 with open("requirements.txt", "r", encoding="utf-8") as fr:
