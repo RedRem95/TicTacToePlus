@@ -3,7 +3,7 @@ from typing import Dict, Any, Tuple, Optional, List
 from random import choice
 
 import gymnasium
-from gymnasium import spaces, Env
+from gymnasium import spaces
 
 from TicTacToePlus.game.game import Game
 

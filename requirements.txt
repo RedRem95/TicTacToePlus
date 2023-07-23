@@ -2,3 +2,5 @@ stable-baselines3[extra]
 numpy
 pandas
 matplotlib
+torch
+gymnasium

@@ -44,4 +44,5 @@ setuptools.setup(
     python_requires=">=3.8",
     install_requires=requirements,
     include_package_data=True,
+    package_data={"TicTacToePlus": ["version.txt"]},
 )

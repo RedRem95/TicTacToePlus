@@ -1,6 +1,4 @@
-import gymnasium
-from gym.envs.registration import register
-from stable_baselines3.common.env_checker import check_env
+from gymnasium.envs.registration import register
 
 from .gym import TicTacToePlusGym
 
