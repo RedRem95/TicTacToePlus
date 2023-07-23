@@ -38,9 +38,10 @@ setuptools.setup(
             'train_tttp = TicTacToePlus.entries.train:main',
         ],
     },
+    keywords="reinforcement-learning-algorithms reinforcement-learning machine-learning "
+             "gymnasium gym stable baselines toolbox python data-science",
     packages=setuptools.find_packages(include=['TicTacToePlus', 'TicTacToePlus.*']),
     python_requires=">=3.8",
     install_requires=requirements,
-    requires=requirements,
     include_package_data=True,
 )
