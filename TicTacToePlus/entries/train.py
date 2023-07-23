@@ -8,8 +8,7 @@ def run(target_folder: str, train_steps: int, n_envs: int = 1):
     run_training(target_folder=target_folder, train_steps=train_steps, n_envs=n_envs)
 
 
-if __name__ == "__main__":
-
+def main():
     parser = argparse.ArgumentParser(description="Run training")
     parser.add_argument("-t", "--target-folder", dest="target_folder", required=True,
                         help="Folder to create training results in (Will always create a subfolder to collect data)")
@@ -20,3 +19,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     run(target_folder=args.target_folder, train_steps=args.train_steps, n_envs=args.n_envs)
+
+
+if __name__ == "__main__":
+    main()

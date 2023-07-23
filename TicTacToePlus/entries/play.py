@@ -52,8 +52,7 @@ def _parse_player_type(data: str):
                                      f"Options are {_human_player_key} or a valid path to a trained model zip")
 
 
-if __name__ == "__main__":
-
+def main():
     parser = argparse.ArgumentParser(description="Run training")
     parser.add_argument("-p1", "--player1", dest="player1", required=True, type=_parse_player_type,
                         help=f"Type of player 1. Options are '{_human_player_key}' or '/path/to/model.zip'")
@@ -64,3 +63,5 @@ if __name__ == "__main__":
     play(player1=args.player1, player2=args.player2)
 
 
+if __name__ == "__main__":
+    main()
