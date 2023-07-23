@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 with open("requirements.txt", "r", encoding="utf-8") as fr:
-    requirements = [x for x in fr.readlines() if len(x) > 0]
+    requirements = [x.strip() for x in fr.readlines() if len(x.strip()) > 0]
 
 setuptools.setup(
     name="TicTacToePlus",
