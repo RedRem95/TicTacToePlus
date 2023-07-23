@@ -5,13 +5,13 @@
 This project implements an advanced variant of TicTacToe.
 
 ### Game
-Like in TicTacToe you win when you have a full row, column or diagonal. But unlike in tictactoe each player has different
+Like in TicTacToe you win when you have a full row, column or diagonal. But unlike in TicTacToe each player has different
 keystones to play with. If you place a 1 on a field another player could place a 2 or higher on it, so higher keystones beat
-lower ones. This gives more tactical depth, complexity and removes the very simple nature of tictactoe.
+lower ones. This gives more tactical depth, complexity and removes the very simple nature of TicTacToe.
 Per default each player gets keystones 1, 2 and 3 and 3 of each. So if you place a 3 your opponent can not beat it and its safe
 but by limiting the amount its still a tactical choice.
 
-To play standard tictactoe you could give each player just one keystone 5 times.
+To play standard TicTacToe you could give each player just one keystone 5 times.
 
 ## Table of Contents (Optional)
 
@@ -26,7 +26,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 
 ``` bash
-pip install https://github.com/RedRem95/TicTacToePlus.git
+pip install git+https://github.com/RedRem95/TicTacToePlus.git
 ```
 
 ## Usage
